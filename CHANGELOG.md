@@ -5,6 +5,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+### Removed
+* Removed mimemagic
+
 ## 2.2.0 - 2021-02-23
 ### Added
 * libvips support through [ImageProcessing::Vips](https://github.com/janko/image_processing) and [ruby-vips](https://github.com/libvips/ruby-vips) (@rhymes [#2500](https://github.com/carrierwaveuploader/carrierwave/pull/2500), [e8421978](https://github.com/carrierwaveuploader/carrierwave/commit/e84219787aa1c95a55cbc78ad062b7539d8e5813), [4ae8dc64](https://github.com/carrierwaveuploader/carrierwave/commit/4ae8dc64ff0dcbcf66c6d79df90268d57438df55))
