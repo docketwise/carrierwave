@@ -5,8 +5,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-### Removed
-* Removed mimemagic
+### Security
+* Removed `mimemagic` dependency to avoid GPL licensing issues ([#2548](https://github.com/carrierwaveuploader/carrierwave/issues/2548)). Note that this removes a previous Carrierwave-level mitigation for CVE-2016-3714 ("ImageTragick"), introduced in 2.0.0.rc. ImageTragick may still be mitigated via other, non-Carrierwave means.
 
 ## 2.2.0 - 2021-02-23
 ### Added
